@@ -1,0 +1,187 @@
+body{
+	font-family: 'Rajdhani', sans-serif;
+}
+.navbar-qubiz {
+    background-color: #fff;
+    border: none;
+    vertical-align: middle;
+    margin-bottom: 0;
+    min-height: 60px;
+}
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px;
+}
+.nav-link{		
+	color: #F5F3F5;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link:hover {
+	color: #302B27;
+}
+
+/* opacity 60% for menu dropdown*/
+.btnBackground{
+  background-color: rgba(255, 255, 255, 0.60);
+}
+.navbar-li {
+	font-size: 20px;
+	color: #F5F3F5;
+	text-decoration: none;
+}
+.navbar-li:hover {
+	background-color: #FF6D0C;
+}
+.navbar-a {
+	color: #302B27;
+}
+.navbar-a:hover{
+	color: blanchedalmond;
+}
+
+.navbar-aboutus{
+	color: #E83200;
+}
+.orange-hover:hover{
+	color: #E83200;
+}
+.alignCenter{
+	text-align: center;
+}
+
+/* reduces the width of the "EN" tab dropdown, located in the navbar*/
+.width_EN{
+	min-width: 3rem;
+}
+.height-80 {
+  min-height: 80vh;
+}
+.width-80 {
+  min-width: 150vh;
+}
+.about-picture {
+  /* background: url(images/portfolio-2.jpeg) center; */
+  /*background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  */
+}
+img {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50%; */
+}
+/*display a border when hovering unto an image*/
+img:hover {
+  box-shadow: 0 0 2px 3px rgba(232, 103, 5, 1);
+}
+#filler{
+  background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+   url(images/city-view-from-seaport.jpg) center/cover no-repeat;
+   overflow: auto;
+}
+/* basic cards*/
+.title-underline{
+  width: 100px;
+  border: 2px solid #E83200;
+  margin: 0 auto;
+}
+.card-body{
+  background-color: whitesmoke;
+}
+.card-title{
+
+}
+.preTitle-underline{
+  width: 100px;
+  border: 2px solid #E83200;
+  margin: 0 auto;
+  left: 0;
+}
+.cardsbgcolor{
+  background-color: lightblue;
+  height: 500px;
+}
+
+/*---------------- Contact section style -----------------------------------------*/
+/* The checkbox from contact section*/
+.check_box {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.check_box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check_box:hover input ~ .checkmark {
+  background-color: grey;
+}
+
+/* When the checkbox is checked, add a grey background */
+.check_box input:checked ~ .checkmark {
+  background-color: grey;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check_box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check_box .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Contact section - Form group settings*/
+.form-control{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+}
+/*------------------- End of Contact section style ----------------------------------*/
+
